@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>user determination</title>
+		<style>
+
+		body {
+
+			background-color: #8bffb6;
+		}
+		.maincontainerfm {
+				border: none;
+
+
+			}
+			.maincontainerfmi {
+				border: 2px solid black;
+				margin: 0 auto;
+				background-color: red;
+				width: 90%;
+			}
+			label {
+            	width: 180px;
+            	display: inline-block;
+
+            }
+          #lgnbtn {
+
+          	margin-left: ;
+          }
+			input[type=submit] {
+				margin-left: 295px;
+				display: block;
+			}
+			input[type=submit][1] {
+				margin-left: 200px;
+				display: block;
+			}
+		</style>
+
+
+	</head>
+	<body>
+
+
+	<div class="maincontainerfm">
+		<div class="laya">
+
+			<h1 class="greate" style="color: #ffaa00; text-shadow: 1px 1px purple;">Greate!</h1>
+
+		</div
+
+		<div class="layb">
+			<div class="maindeta">
+				<div class="subdeta">
+					<fieldset class="firstfs">
+						<legend class="newuser"></legend>
+						<form class="newfm" method="post" id="fmone">
+							<p class="helpn" style="float: none; clear: both; font-size: 19px; font-weight: lighter;">fill in your details press enter to proceed enjoy our services if you are new , first time user or want to tour us</p>
+							<label for="nemail">E-mail Adress: </label><input type="email" class="email" id="nemail" name="newUserEmail" required/><br/><br/>
+							<label for="nphone">Phone Number: </label><input type="tel" class="phone" id="nphone" name="newUserPhoneNumber" required/><br/><br/>
+							<input type="submit" class="submit" id="nsubmit" value="Signin" name="Signin"/>
+							<br/><br/>
+							<hr/>
+							<button onclick="shutngo()" style="margin-left: 180px; background-color: rgba(255,255,255,0.5); border-left: 0; border-top: 0; border-right: 0;">Linkto</button>
+						</form>
+
+
+						<form class="newfm" method="post" id="fmtwo" style="display: none;">
+						    <button style="float: right; clear: both; display: block; background-color: rgba(255,255,255,0.5); border-left: 0; border-top: 0; border-right: 0; box-shadow: 2px 2px 2px gray;" onclick="shutngoadmin()">Login</button>
+							<p class="helpn" style="float: none; clear: both; font-size: 19px; font-weight: bolder;">To proceed, Signin</p>
+							<label for="nemail">Company Name: </label><input type="email" class="email" id="nemail" name="UserEmail" required/><br/><br/>
+							<label for="nphone">Pass Code: </label><input type="tel" class="phone" id="nphone" name="UserPhoneNumber" required/><br/><br/>
+							<input type="submit" class="submit" id="nsubmit" value="Signin." name="Signedin" style="margin-left: 292px;"/>
+							<br/><br/>
+						</form>
+
+						<form method="POST" action"/" id="fmthree" style="display: none;">
+                           <h1 style="padding-left: 5%;">Lock<img src="" width="20px" height="20px" style="margin-left: 15px; margin-right: 5px;"/> Lock</h1>
+                           <label for="company">Company Name:</label><input type="email" id="company" name="company"><br/><br/>
+                           <label for="password">Key<img src="" height="20px" width="20px" style="margin-left: 10px;"/></label><input type="text" id="password" name="key" required><br/><br/>
+                           <input type="submit" id="lgnbtn" value="UnLock" name="UnLock" style="margin-left: 288px;">
+                        </form>
+
+					</fieldset>
+					<script>
+						function shutngo() {
+							var letout = document.getElementById("fmone");
+							var letin = document.getElementById("fmtwo");
+							letin.style.display = "block";
+							letout.style.display = "none";
+
+						}
+
+						function shutngoadmin() {
+							var letout = document.getElementById("fmtwo");
+							var letin = document.getElementById("fmthree");
+							letin.style.display = "block";
+							letout.style.display = "none";
+						}
+					</script>
+
+				</div>
+			</div>
+
+		</div>
+
+		</div>
+	</body>
+</html>

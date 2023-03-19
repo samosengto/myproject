@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+	</head>
+	<body>
+		
+		<div>This is my view about it in showa <%= locals.text || "Default" %></div>
+		
+		<form action="/users" method="post">
+			<label>
+				<input type="text" name="theName" value="<%= locals.firstName %>"/>
+				
+			</label>
+			<button type="submit">Submit</button>
+			
+			
+			
+		
+	</body>
+</html>

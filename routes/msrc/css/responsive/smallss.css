@@ -1,0 +1,36 @@
+/*routeanim*/
+
+  .mainrc {
+  	height: 495px !important;
+  	
+  }
+
+
+	#tools {
+		height: 140px !important;
+		
+		
+	}
+	.bigd {
+		text-align-last: center !important;
+		text-align: center !important;
+	}
+	.locationinput {
+		text-align-last: center !important;
+		
+		
+	}
+	#origin {
+		margin-left: 30px !important;
+		 
+		
+		
+	}
+	#travel {
+	margin-left: 120px !important;
+		 	
+		
+		
+	} 
+	
+	

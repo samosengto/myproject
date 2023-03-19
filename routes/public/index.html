@@ -1,0 +1,253 @@
+<!doctype html>
+<html>
+  <head>
+        <meta charset="utf8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>
+        <title></title>
+        <style type="text/css">
+             .titles {
+             	margin: 0;
+             	padding: 0;
+             	border: none;
+             	width: 100%;
+             	height: 150px;
+             	background-color: white;
+             	font-weight:light;
+             	position: static;
+             }
+
+           .intitles {
+           	 margin:0;
+           	 padding:0.5% 0.2%;
+           	 border:none;
+           	 width:auto;
+           	 height:auto;
+
+           }
+           .adbt {
+
+           	width:50%;
+           	height:auto;
+           	margin:0;
+           	padding:0;
+           	border:none;
+           	float:left;
+           	clear:left;
+           }
+           .adbtbcn {
+
+           	width:50%;
+           	height:auto;
+           	margin:0;
+           	padding:0;
+           	float:right;
+           	clear:right;
+           	text-align:right;
+           }
+           .adbth {
+           	float:none;
+           	clear:both;
+           	width:100%;
+           	height:auto;
+           	margin:0 0 0  0;
+           	padding:0.5% 0 0 0;
+           	border:none;
+           }
+
+           fieldset {
+           		  width:96%;
+           	margin:0;
+           	padding:0 2%;
+           	height:13350px;
+           }
+            form {
+            	  background-color: ;
+            	  width:100%;
+           	height:auto;
+           	margin:0;
+           	padding:0;
+           	border:none;
+            	 }
+
+            .schedules {
+
+            	border: 2px solid red;
+            	height: 900px;
+            	width: auto;
+            	background-color: skyblue;
+            	margin: 0;
+            	padding: 0;
+            }
+            .headnga {
+            	display: block;
+            	height: 50px;
+            	width: 30%;
+            	float: none;
+            	clear: both;
+
+            }
+
+
+            .firstaa {
+            	height: 50px;
+            	display: block;
+            	margin: 0;
+            	padding: 0;
+            	background-color: pink;
+            }
+
+
+            #bbtdbfsa {
+            	width: 25%;
+            	float: left;
+            	clear: left;
+
+            }
+            #nptbdfsa {
+            width: 25%;
+            float: left;
+            clear: none;
+            text-align: center;
+            }
+            #cntdbfsa {
+            	width: 25%;
+            	float: left;
+            	clear: none;
+            	text-align: left;
+            }
+            #pntdbfsa {
+            	width: 25%;
+            	float: right;
+            	clear: right;
+            	text-align: right;
+            }
+
+
+            .firstas {
+            	display: block;
+            	background-color: white;
+            	height: 100%;
+            }
+
+
+
+           .firstrt, .first, .firstbtn {
+           	display:block;
+           	height:50px;
+           	background-color:pink;
+           	margin:0;
+           	padding:0;
+           }
+           .firsta {
+           	display:block;
+           	background-color: white;
+           	height:100%;
+           }
+           label {
+           display:block;
+           	margin:0;
+           	padding:0;
+           	border:none;
+           	width: auto;
+           }
+           #rtdbfs {
+           	float:none;
+           	clear:both;
+           	width:100%;
+           	margin:0;
+           	padding:0;
+           	border:none;
+
+           }
+           #bbtdbfs {
+           	width:16.5%;
+           	float:left;
+           	clear:left;
+
+           }
+
+           #nptbdfs {
+           	width:16.5%;
+           	float:left;
+           	clear:none;
+           	text-align:center;
+           }
+           #cntdbfs {
+           	width:16.5%;
+           	float:left;
+           	clear:none;
+           	text-align:center;
+           }
+           #pntdbfs {
+           	width:17%;
+           	float:left;
+           	clear:none;
+           	text-align:center;
+           }
+           #lstdbfs {
+           	width:16.5%;
+           	float:right;
+           	clear:right;
+           	text-align:right;
+           }
+           #ubtntdbfs {
+           	float:none;
+           	clear:both;
+           	width:100%;
+           	margin:5px 0 0 0;
+           	padding:0;
+           	border:none;
+           	text-align:right;
+           }
+           #rtdbss {
+           	margin:0 0px;
+           	width:auto;
+           	padding:0 0px;
+           }
+           #rtdbia, #rtdbie, #rtdbii, #rtdbio, #rtdbiu {
+           	width:50% !important;
+
+           }
+           input[type=text] {
+           	width:auto;
+           }
+
+
+        </style>
+
+        <script>
+ window.onload=function() {
+ var elems = document.getElementsByTagName("input");
+ // capture submit to store storage
+
+ document.getElementById("inputform").onsubmit=processField;
+ for (var i = 0; i < elems.length; i++) {
+ if (elems[i].type == "text") {
+ // restore
+ var value = localStorage.getItem(elems[i].id);
+ if (value) elems[i].value = value;
+ // change event
+ elems[i].onchange=processField;
+ }
+ }
+ }
+ // store field values
+ function processField() {
+ localStorage.setItem(window.location.href,"true");
+ localStorage.setItem(this.id, this.value);
+ }
+ // clear individual fields
+ function clearStored() {
+ var elems = document.getElementsByTagName("input");
+ for (var i = 0; i < elems.length; i++) {
+ if (elems[i].type == "text") {
+ localStorage.removeItem(elems[i].id);
+ }
+ }
+ }
+</script>
+    </head>
+    <body style="height: 100%;">
+        <h1 style="display: flex; flex-direction: column; justify-content: center;"><center>Error Encountered &Xi;</center></h1>
+    </body>
+</html>

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<script>
+			function showme() {
+				if(document.querySelector(".satec").textContent === "one") {
+					
+					document.querySelector(".sami").style.display = "none";
+					
+					
+				} else {
+					document.querySelector(".sami").style.display = "block";
+					
+				};
+				
+			};
+			
+		</script>
+	</head>
+	<body onload="showme()">
+	   <div class="sami" style="background-color: pink; height: 250px;  ">
+		<div class="satec"style="background-color: green; height: 250px;">one</div>	 		
+	   </div>
+		
+	</body>
+</html>

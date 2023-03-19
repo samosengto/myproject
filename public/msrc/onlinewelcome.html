@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1"/>
+		<title>welcome  to network</title>
+		<link rel='stylesheet' href='css/responsive/smalls.css' media='screen and (min-width: 0px) and (max-width: 899px)'/>
+		<style>
+			body {
+			margin-top: 0;
+			margin-right: 0;
+			margin-bottom: 0;
+			margin-left: 0;
+			background-color: pink;
+			padding: 0;
+			border: none;
+			width: 100%;
+			height: 100%;	
+			}
+			a {
+				text-decoration: none;
+				margin: 0;
+			padding: 0;
+			border: none;
+				
+			}
+			
+			
+			.mainintro {
+			margin: 0;
+			padding: 0;
+			border: none;
+			width: 100%;
+			
+			height: 100%;		
+			background-color:;	
+			font-family: Helvetica, serif;
+			}
+			
+			
+			.introsub {
+				border: none;
+				margin: 0px;
+				padding: 0px;
+				width:100%;
+				height: 657px;
+				
+				background-color: ;
+			}
+			.intro {
+				margin: 0px;
+			padding: 0px;
+			border: none;
+			width: 100%;
+			height: 100%;
+			
+			background-color:pink;	
+			}
+			
+			
+			.containera {
+				height: 50%;
+				margin: 0;
+			padding: 0;
+			border: none;
+			text-align: center;	
+			}
+			#msga {
+				font-size: 20px;
+				margin: 0;
+				padding: 0;
+				border: none; 
+			}
+			.msgbc {
+				
+				margin: 0;
+			padding: 0;
+			border: none;
+				
+			}
+			
+			#msgb {
+				
+				display: block;
+				margin-top: 20px;
+				padding-top: 30px;
+				
+				
+			}
+			.togo {
+				display: block;	
+				width: 100%;
+				background-color:;
+				text-align: center;
+			}
+			
+			#tointro {
+			padding-top: 10px;
+			padding-bottom: 10px;
+			display: inline-block;	
+			background-color:orange;
+			width: 100px;
+			border-radius: 4px/8px;	
+			box-shadow: 2px 2px 2px white;	
+			}
+			
+			.containerb {
+				height: 50%;
+				margin: 0;
+			padding: 0;
+			border: none;
+			
+			}
+			#paraa {
+				margin: 0;
+			padding: 0;
+			border: none;
+			height: 100%;
+			background-color: yellow;
+			width: 33%;
+			float: left;
+			clear: left;
+			
+				
+			}
+			#parab {
+				margin: 0;
+			padding: 0;
+			border: none;
+			height: 100%;
+			width: 33%;
+			float: left;
+			clear: none;
+			text-align: center;
+				
+			}
+			#parac {
+				margin: 0;
+			padding: 0;
+			border: none;
+			height: 100%;
+			width: 33%;
+			float: right;
+			clear: right;
+			text-align: right;
+			background-color: green;	
+			}
+			.parset {
+				display: block;
+				margin: 0;
+			padding: 0;
+			border: none;
+				
+			}
+			#parasetid {
+				padding-top: 60%;
+				padding-left: 2%;
+				padding-right: 2%;
+				width: auto;
+			}
+			.btmlink {
+				background-color: mintcream;
+				border: 1px solid #00001f;
+				
+			}
+			
+		</style>
+	</head>
+	<body onload="readit()">
+		
+		<div class="mainintro">
+			<div class="introsub">
+				<form class="intro" id="welcomeintro" name="welcomesyou" style=" padding-top: 60px; height: auto;">
+				  <div class="containera" id="containeraow" style="padding-top: 20px; border: 2px solid black; width: 50%; align-self: center; align-content: center; margin: 0 auto; height: 450px;"> 
+				  it's: 
+					<p id="msga"><script>
+						function readit() {
+							var today = new Date();
+							var puthere =document.getElementById('msga') ;
+							puthere.appendChild(document.createTextNode(today));
+							
+						};
+						
+						
+					</script></p>
+					<span class="msgbc" id="msgb">Welcome !</span>
+					<p class="togo"><a href="http://localhost:3000/users/signatures/general/tgeneral" id="tointro">Thank You</a></p>
+				   </div>
+				  
+				</form>
+				
+				
+			</div>
+			
+			
+		</div>
+		
+		
+	</body>
+</html>
