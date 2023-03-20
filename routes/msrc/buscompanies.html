@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		
+		<meta name="viewport" content="width=device-width, initial-scale=1", user-scalable="no"/>
+		<meta name="mobile-web-app-capable" content="yes"/>
+		<meta name="theme-color" content="palegreen"/>
+		
+		
+		<title></title>
+		<style>
+		
+		         .maincontainer {
+		         	
+		         	display: block;
+		         }
+		
+		
+		
+		          h2 {
+		          	
+		          	padding: 15px;
+		          }
+		
+		    button {
+		    	
+		           display: block;
+		           margin: 15px auto;
+		           width:98%;	
+		           padding: 15px auto;
+		           font-size: medium;
+		           border: none;
+		           height: 40px;
+		    }
+			div {
+				height: 350px;
+				  margin: 15px auto;
+		           width:97.8%;	
+		           padding: 10px auto;
+				 display: none;
+			}
+			p {
+				
+				margin: 15px auto;
+		           width:97.8%;	
+		           padding: 10px auto
+				
+			}
+
+			.personal {
+				font-size: 19px;
+				padding: 15px;
+				width: auto;
+				font-weight: 800;
+			}
+			.btmcom {
+				margin-top: 230px;
+				display: block;
+				height: auto;
+				width:auto;	
+				padding-right: 15px;
+				padding-left: 10px;
+			}
+			.left {
+				float: left;
+				clear: left;
+				width: 33%;
+				text-align: left;
+			}
+			.midle {
+				float: left;
+				clear: none;
+				width: 33%;
+				text-align: center;
+			}
+			.right {
+				
+				float: right;
+				clear: right;
+				width: 33%;
+				text-align: right;
+				
+			}
+			.lout {
+				
+				background-color: orange;
+				padding: 5px 10px;
+				text-decoration: none;
+			}
+			
+		</style>
+	</head>
+	<body>
+	   <div class="maincontainer">
+	   <p style="text-align: right; font-size: 23px; font-weight: 900;">Bus Companies</p>
+	   <h2>Click on Any direction below to chose the bus company you would wish to travel </h2>
+	   	 <button onclick="showone()">Eastern</button>
+         <div class="foriframe" id="showone">
+         	<p class="bcom"><a href="eschedule.html">LION COACH</a></p>
+         	<p class="bcom"><a href="eschedule.html">LION COACH</a></p>
+         	<p class="bcom"><a href="eschedule.html">LION COACH</a></p>
+         	<p class="bcom"><a href="eschedule.html">LION COACH</a></p>
+         	<p class="bcom"><a href="eschedule.html">LION COACH</a></p>
+         	<p class="bcom"><a href="eschedule.html">LION COACH</a></p>
+         	<p class="bcom"><a href="eschedule.html">LION COACH</a></p>
+         	<p class="bcom"><a href="eschedule.html">LION COACH</a></p>
+         	<p class="bcom"><a href="eschedule.html">LION COACH</a></p>
+         	<p class="bcom"><a href="eschedule.html">LION COACH</a></p>
+         </div>
+         
+	   	<button onclick="showtwo()">Western</button>
+         <div class="foriframe" id="showtwo">
+         	<p class="bcom"><a href="eschedule.html">LION COACH</a></p>
+         	<p class="bcom"><a href="eschedule.html">LION COACH</a></p>
+         	<p class="bcom"><a href="eschedule.html">LION COACH</a></p>
+         	<p class="bcom"><a href="eschedule.html">LION COACH</a></p>
+         	<p class="bcom"><a href="eschedule.html">LION COACH</a></p>
+         	<p class="bcom"><a href="eschedule.html">LION COACH</a></p>
+         	<p class="bcom"><a href="eschedule.html">LION COACH</a></p>
+         	<p class="bcom"><a href="eschedule.html">LION COACH</a></p>
+         	<p class="bcom"><a href="eschedule.html">LION COACH</a></p>
+         	<p class="bcom"><a href="eschedule.html">LION COACH</a></p>
+         </div>
+	   	<button onclick="showthree()">Northern</button>
+         <div class="foriframe" id="showthree">
+         	<p class="bcom"><a href="eschedule.html">LION COACH</a></p>
+         	<p class="bcom"><a href="eschedule.html">LION COACH</a></p>
+         	<p class="bcom"><a href="eschedule.html">LION COACH</a></p>
+         	<p class="bcom"><a href="eschedule.html">LION COACH</a></p>
+         	<p class="bcom"><a href="eschedule.html">LION COACH</a></p>
+         	<p class="bcom"><a href="eschedule.html">LION COACH</a></p>
+         	<p class="bcom"><a href="eschedule.html">LION COACH</a></p>
+         	<p class="bcom"><a href="eschedule.html">LION COACH</a></p>
+         	<p class="bcom"><a href="eschedule.html">LION COACH</a></p>
+         	<p class="bcom"><a href="eschedule.html">LION COACH</a></p>
+         </div>
+         <div class="btmcom">
+         	<p class="left"><a href="homepage.html" class="lout">Home</a></p>
+         	<p class="midle"><a href="contactusp.html" class="lout">Contact us</a></p>
+         	<p class="right"><a href="support/support.html" class="lout">Support</a></p>
+         </div>
+         
+	   </div>
+	   <script>
+	   	    function showone() {
+	   	    	var showon = document.getElementById("showone");
+	   	    	showon.style.display = "block";	
+	   	    };
+	   	   function showtwo() {
+	   	    	var showon = document.getElementById("showtwo");
+	   	    	showon.style.display = "block";	
+	   	    };
+	   	function showthree() {
+	   	    	var showon = document.getElementById("showthree");
+	   	    	showon.style.display = "block";	
+	   	    };
+	   	 function showfour() {
+	   	    	var showon = document.getElementById("showfour");
+	   	    	showon.style.display = "block";	
+	   	    };   
+	   	function showfive() {
+	   	    	var showon = document.getElementById("showfive");
+	   	    	showon.style.display = "block";	
+	   	    };
+	   	
+	   	function showsix() {
+	   	    	var showon = document.getElementById("showsix");
+	   	    	showon.style.display = "block";	
+	   	    };
+	   	
+	   	function showsaven() {
+	   	    	var showon = document.getElementById("showsoven");
+	   	    	showon.style.display = "block";	
+	   	    };
+	   </script> 
+	</body>
+</html>

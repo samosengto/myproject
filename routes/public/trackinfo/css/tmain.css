@@ -1,0 +1,845 @@
+body {
+	background-color: blue;
+	padding-bottom: 7px !important;
+}
+main {
+	border-radius: 20px/24px;
+	height: 484px !important;
+	background-color: palegreen !important;
+	margin-left: 5px !important;
+	margin-right: 5px !important;
+	margin-bottom: 5px !important;
+	
+}
+
+
+
+#mainzz {
+	height: 140px !important;
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+	padding-top: 30px !important;
+	
+	
+}
+#mainyy {
+	height: 303px !important;	
+	padding-top: 30px !important;
+	
+	
+}
+#mainyy a {
+	background-color: #ffeff4;
+	text-decoration: none;
+	opacity: 0.7;
+	border-radius: 5px;
+	font-family: Helvetica, serif;
+	font-weight: lighter;
+	color: lightgrey;
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+main p.routeae, main p.routea {
+	margin-left: 15px !important;
+	
+}
+
+
+.routeae, .routea {
+	
+	margin-left: 5px ;
+}
+
+.routeae {
+	
+	margin-left: 0px !important;
+}
+
+#routeae #spanroneoutthreel, #routea #spanroneoutthreel {
+	background-color: ;
+	text-align: left !important;
+	width: auto !important;
+}
+#routeae #spanroneoutthreem, #routea #spanroneoutthreem {
+	background-color:  !important;
+	text-align: right !important;
+	width: auto !important;
+}
+
+
+#routeae #spanroneoutthreel {
+	background-color:  !important;
+	text-align: left !important;
+	
+}
+
+
+#routeae #spanroneoutthreem {
+	background-color:  !important;
+	text-align: right !important;
+
+}
+#routeae #spanroneoutoner {
+	background-color:  !important;
+	text-align: right !important;
+text-align-last: right !important;
+	padding-right: 4px !important;
+	position: relative !important;
+	right: 0px !important;
+	float: right !important;
+}
+
+
+
+
+#routeae #spanroneoutoner, #routea #spanroneoutoner {
+	background-color: ;
+	text-align: right !important;
+	width: auto !important;
+	padding-right: 4px !important;
+text-align-last: right !important;
+	float: right !important;
+}
+
+
+#routeaae #spanroneoutthree, #routeaa #spanroneoutthree {
+	background-color: ;
+	text-align: left !important;
+	width: 45% !important;
+}
+#routeaae #spanroneoutfour, #routeaa #spanroneoutfour {
+	background-color: ;
+	text-align: right !important;
+	width: 10% !important;
+}
+
+
+#routeaae #spanroneoutone, #routeaa #spanroneoutone {
+	background-color: ;
+	text-align: right !important;
+	width: 41% !important;
+	padding-right: 2px !important;
+}
+
+
+
+.leftloa, .leftloae {
+	 float: left;
+	 clear: left;
+	 width: 50% !important;
+	 background-color: transparent !important;
+	 border-top-right-radius: 20px !important;
+}
+.rightsloa {
+	 float: right; 
+	 clear: right;
+	 width: 50% !important;
+	 background-color: transparent !important;
+	 border-top-right-radius: 20px !important;
+}
+.bottomsloa {
+	 float: none; 
+	 clear: both;
+	 background-color: violet !important;
+	 height: 111px !important;
+	 border-bottom-left-radius: 24px;
+	 border-bottom-right-radius: 24px;
+	 border-top: 2px solid darkslateblue !important;
+	
+}
+.bottomsloa #spanroneoutsix {
+	padding-left:0px !important;
+	width: 33% !important;
+	background-color: transparent !important;
+}
+.bottomsloa #spanroneouteight {
+	width: 66% !important;
+	background-color: transparent !important;
+}
+.bottomsloa #spanroneouteight #spanink {
+	width: 33% !important;
+	
+}
+.bottomsloa #spanroneouteight #spanint {
+	width: 33% !important;
+	text-align: right !important;
+	padding-right:0px !important;
+}
+
+a {
+	margin: ;
+	padding: 4px 8px !important;
+	box-shadow: -2px 2px 2px black !important;
+}
+.bottomsloa #spanroneoutsix a {
+	margin-left: 10px !important;
+	margin-top: 10px !important;
+}
+.bottomsloa #spanroneouteight #spanink a {
+	 margin-top: 10px !important;
+	
+}
+
+.bottomsloa #spanroneouteight #spanint a {
+	 margin-right: 10px !important;
+	 margin-top: 10px !important;
+}
+
+.leftloaamd #spanroneoutone, .leftloa #spanroneoutone, .leftloa #spanroneoutonefml, .leftloae #spanroneoutone, .rightsloa #spanroneoutone {
+	 float: none !important; 
+	 clear: both !important;
+	 width: 100% !important;
+	 height: 55px !important;
+	 background-color:  !important;
+	
+}
+.leftloaamd #spanroneouttwo, .leftloa #spanroneouttwo, .leftloae #spanroneouttwo, .rightsloa #spanroneouttwo {
+	 float: none !important; 
+	 clear: both !important;
+	 width: 100% !important;
+	 height: 55px !important;
+	  background-color:  !important;
+}
+.leftloaamd #spanroneoutthree, .leftloa #spanroneoutthree, .leftloa #spanroneoutthree, .leftloae #spanroneoutthree, .rightsloa #spanroneoutthree {
+	 float: none !important; 
+	 clear: both !important;
+	 width: 100% !important;
+	 height: 55px !important;
+	  background-color:  !important;
+}
+.leftloaamd #spanroneoutfour, .leftloa #spanroneoutfour, .leftloae #spanroneoutfour, .rightsloa #spanroneoutfour {
+	 float: none !important; 
+	 clear: both !important;
+	 width: 100% !important;
+	 height: 55px !important;
+	  background-color:  !important;
+}
+.leftloaamd #spanroneoutfive, .leftloa #spanroneoutfive, .leftloae #spanroneoutfive, .rightsloa #spanroneoutfive {
+	 float: none !important; 
+	 clear: both !important;
+	 width: 100% !important;
+	 height: 50px !important;
+	  background-color:  !important;
+}
+.leftloa #spanroneoutsix, .leftloae #spanroneoutsix {
+	 float: none !important; 
+	 clear: both !important;
+	 width: 100% !important;
+	 display: none !important;
+}
+.leftloaamd #spanroneouteight, .leftloa #spanroneouteight, .leftloae #spanroneouteight {
+	 float: none !important; 
+	 clear: both !important;
+	 width: 100% !important;
+	 display: none !important;
+}
+
+.leftloa #spanroneoutone, .leftloa #spanroneouttwo, .leftloa #spanroneoutthree, .leftloa #spanroneoutfour, .leftloa #spanroneoutfive, .leftloae #spanroneoutone, .leftloae #spanroneouttwo, .leftloae #spanroneoutthree, .leftloae #spanroneoutfour, .leftloae #spanroneoutfive{
+
+background-color: pink !important;
+
+}
+ .leftloa #spanroneoutone #spanin {
+ 	background-color: red !important;
+border-top-left-radius: 20px;
+ 	padding-left: 10px !important;
+ }
+ 
+#spanin {
+	margin: 8px 0 4px 0 !important;
+	padding:8px  0 0 0 !important;
+	
+}
+#spaninr {
+	margin: 8px 0 4px 0 !important;
+	padding:8px  0 0 0 !important;
+	
+}
+#spanina {
+	
+	background-color: transparent !important;
+}
+
+
+
+.rightsloa #spanroneoutone, #spanroneoutonefml {
+	 float: none !important; 
+	 clear: both !important;
+	 width: 100% !important;
+	 margin-top: 0px !important;
+	 background-color: violet !important;
+}
+
+.rightsloa #spanroneouttwo {
+	 float: none !important; 
+	 clear: both !important;
+	 width: 100% !important;
+	 margin-top: 0 !important;
+	 background-color: violet !important;
+}
+.rightsloa #spanroneoutthree {
+	 float: none !important; 
+	 clear: both !important;
+	 width: 100% !important;
+	 margin-top: 0 !important;
+	 background-color: violet !important;
+}
+.rightsloa #spanroneoutfour {
+	 float: none !important; 
+	 clear: both !important;
+	 width: 100% !important;
+	 margin-top: 0 !important;
+	 background-color: violet !important;
+}
+.rightsloa #spanroneoutfive {
+	 float: none !important; 
+	 clear: both !important;
+	 width: 100% !important;
+	 margin-top: 0 !important;
+	 background-color: violet !important;
+}
+
+
+
+
+
+/*schedule styles*/
+body {
+	
+	background-color: blue !important;
+	
+}
+#major {
+	
+	background-color: blue !important;
+}
+.majors  main {
+	height: 365px !important;
+	margin-top: 10px !important;
+}
+
+#majors  main {
+	
+} 
+
+
+.majors  main #spanin {
+	
+	  padding: 0px 0px !important; 
+	 margin: 0px 0 4px 0px !important;
+	background-color:  !important;
+	
+}
+.majors  main .leftloae, .majors  main .leftloa {
+	height: 270px !important;
+	
+}
+
+.majors  main .leftloae #spanroneoutfour #fortitle, .majors  main .leftloa #spanroneoutfour #fortitle {
+	padding-left: 16px !important;
+	
+}
+
+
+
+.majors  main .rightsloa {
+	height: 270px !important;
+	
+}
+#spaninfs {
+	 padding: 8px 4px; 
+	 margin: 0px 0 4px 0 !important;
+	background-color:  !important;
+	
+}
+
+
+#majors  main .leftloa #spanroneoutfour  #fortitle {
+	 border-top-left-radius: 20px !important;
+	background-color:  !important;
+	padding-left: 0px !important;
+}
+#majors  main .rightsloa #spanroneoutone {
+	 border-top-right-radius: 20px;
+	
+}
+
+.rightsloa .spanroneoutonefma {
+	 border-top-right-radius: 20px;
+	
+	
+}
+.leftloae .spanroneoutonefma, .leftloa .spanroneoutonefma  {
+	 border-top-left-radius: 20px;
+	
+	
+}
+.leftloae .spanroneoutonefma #spaninfs, .leftloa .spanroneoutonefma #spaninfs {
+	 border-top-left-radius: 20px;
+	 padding: 9px 8px 28px 8px !important; 
+	background-color: palegreen !important;
+	text-align: right !important;
+	font-weight: bold;
+}
+.spanoutforone {
+	background-color: palegreen !important;
+	 padding: 9px 8px 28px 8px !important; 
+	 margin: 0px 0 0 0 !important; 
+	 font-weight: bold;
+	 border-top-right-radius: 20px;
+	 
+}
+#spantwoouttwo, .spanouttwotosix {
+	background-color:  !important;
+	  padding: 8px !important;  
+	 margin: 0px 0 0 0px !important; 
+	
+}
+#spantwooutthree {
+	background-color:  !important;
+	  padding: 8px !important;  
+	 margin: 0px 0 0 0 !important; 
+}
+#spantwooutfour {
+	background-color:  !important;
+	  padding: 8px !important; 
+	 margin: 0px 0 0 0 !important; 
+}
+#spantwooutfive {
+	background-color:  !important;
+	  padding: 8px !important;  
+	 margin: 0px 0 0 0 !important; 
+}
+.leftloae #spanroneoutseven, .leftloae #spanroneouteight, .leftloa #spanroneoutseven, .leftloa #spanroneouteight {
+	
+	
+	display: none !important;
+	
+	
+}
+
+#spanroneoutseven {
+	background-color:  !important;
+	padding: 0px 0 0 0px !important;  
+	 margin: 0px 0 0 0 !important; 
+	width: 33% !important;
+	text-indent: initial;
+	text-align-last: start;
+} 
+#spanroneoutseven {
+	
+	padding-left: 25px !important;
+	width: auto !important;
+	
+}
+
+
+.spanroneouteightfm {
+	
+	background-color: blue !important;
+	width: 66% !important;
+	text-align: right !important;
+	padding-right: 4px !important;
+	
+}
+ .majors .bottomsloa  {
+    height: 51px !important;
+	 border-bottom-left-radius: 24px;
+	 border-bottom-right-radius: 24px;
+	 border-top: 2px solid darkslateblue !important;
+	 padding-top: 40px !important;
+	 padding-right: 40px !important;
+	 width: auto !important;
+}
+
+#mainyy {
+	padding-top: 0px !important;
+	margin-top: -30px !important;
+	background-color: palegreen !important;
+	
+}
+.alldivsa {
+	background-color: palegreen !important;
+	text-align-last: center;
+}
+.alldivs {
+	background-color: purple !important;
+	padding: 25px 5px !important;
+	text-shadow: 1px 1px 1px #000;
+	color: #fff;
+}
+.alldivsb {
+	background-color: darkslategray !important;
+	padding: 25px 5px !important;
+	line-height: 25px;
+	border-bottom-left-radius: 20px;
+	border-bottom-right-radius: 20px;
+	color: #fff;
+}
+.labelonespan {
+	width: auto;
+	float: left;
+	clear: none;
+	margin: 0;
+	padding: 0;
+}
+.labelonespanl {
+	
+	float: left;
+	clear: none;
+	margin: 0;
+	padding: 0;
+	
+}
+.labelonespanr {
+	
+	
+	float: right;
+	clear: right;
+	margin: 0;
+	padding: 0;
+	
+}
+
+
+
+
+/*parked styles*/
+#majors .leftloa #spanroneoutone #spanin, #majors .leftloae #spanroneoutone #spanin {
+ 	background-color: palegreen !important;
+border-top-left-radius: 20px;
+ 	padding-left: 10px !important;
+ 	padding-bottom: 37px !important;
+ 	padding-top: 7px !important;
+ 	text-align-last: right;
+ 	font-weight: bold;
+ }
+ #majors .leftloae #spanroneoutone #spanin {
+ 	
+ 	padding-top: 9px !important;
+ 	
+ }
+ 
+ 
+ 
+ #majors .rightsloa #spanroneoutone #spanin, #majors .rightsloa #spanroneoutone #spanin {
+ 	padding-left: 5px !important;
+ 	font-weight: bold;
+ }
+#majors .leftloa #spanroneoutone, #majors .leftloa #spanroneouttwo, #majors .leftloa #spanroneoutthree, #majors .leftloa #spanroneoutfour, #majors .leftloa #spanroneoutfive, #majors .leftloae #spanroneoutone, #majors .leftloae #spanroneouttwo, #majors .leftloae #spanroneoutthree, #majors .leftloae #spanroneoutfour, #majors .leftloae #spanroneoutfive{
+
+background-color: pink !important;
+border-top-left-radius: 20px;
+	
+}
+#majors .rightsloa #spanroneoutone, #majors #spanroneoutonefml {
+	 float: none !important; 
+	 clear: both !important;
+	 width: 100% !important;
+	 margin-top: 0px !important;
+	 background-color: palegreen !important;
+	 padding-top: 0px !important;
+	 font-weight: bold;
+}
+#majors .rightsloa #spanroneoutone #spanin {
+ 	background-color: transaparent !important;
+border-top-right-radius: 20px;
+ 	padding-left: 10px !important;
+ 	padding-top: 2px !important;
+ 	
+ }
+#majors .bottomsloa  {
+ 	text-align: center !important;
+ 	padding-right: 0px !important;
+ 	margin-right: 0px !important;
+ 	width: auto !important;
+ 	
+ }
+ #majors .bottomsloa #spanroneouteight {
+ 	text-align: center !important;
+ 	padding-left: 0px !important;
+ 	
+ 	width: 100% !important;
+ 	
+ }
+#majors .bottomsloa a {
+ 	text-align: center !important;
+ 	margin-left:12px !important;
+ 	margin-right:0px !important;
+ 	box-shadow: -2px 2px 2px #000;
+ 	width: auto !important;
+ }
+#majors  main .leftloae #spanroneoutfour #fortitle, #majors  main .leftloa #spanroneoutfour #fortitle {
+	padding-left: 0px !important;
+	
+}
+
+/*already moving buses styles*/
+
+.leftloaamd {
+	 float: left;
+	 clear: left;
+	 width: 50% !important;
+	 background-color: pink !important;
+	 
+}
+
+
+.majoram #spaninr, .majoramd #spaninr {
+	margin: 0px !important;
+	
+}
+
+.majoram #spanina, .majoramd #spanina  {
+	padding: 4px 4px !important; 
+	margin: 0px 0 0px 0 !important;
+}
+ .majoram #spanin, .majoramd #spanin {
+	padding: 0px 0px !important; 
+	margin: 0px 0 0px 0 !important;
+}
+
+
+.majoram .rightsloa #spaninr, .majoramd .rightsloa #spaninr {
+	 
+	 background-color: violet !important;
+	 
+}
+.majoram .leftloae #spanina, .majoram .leftloa #spanina, .majoramd .leftloae #spanina, .majoramd .leftloa #spanina {
+	 
+	 background-color: pink !important;
+	 
+}
+.majoram .routea, .majoram .routeaamd, .majoramd .routea, .majoramd .routeaamd {
+	 padding: 15px 5px!important;
+	 margin: 0px 0 0px 0 !important;
+	 border-top-left-radius: 20px;
+	 border-top-right-radius: 20px;
+	 text-align-last: center;
+	  background-color: palegreen !important;
+}
+
+
+ .majoramd .routea, .majoramd .routeaamd {
+	 padding: 10px 5px!important;
+	 margin: 10px 0 0px 0 !important;
+	 border-top-left-radius: 20px;
+	 border-top-right-radius: 20px;
+	 text-align-last: center;
+	  background-color: palegreen !important;
+}
+
+
+.majoram  main {
+	height: 410px !important;
+	margin-top: 10px !important;
+}
+.majoram .bottomsloa  {
+ 	text-align: center !important;
+ 	padding: 0px !important;
+ 	margin-right: 0px !important;
+ 	width: auto !important;
+ 	background-color:  !important;
+ }
+ 
+.majoram .bottomsloa #spanink a, .majoramd .bottomsloa #spanink a {
+ 	text-align: center !important;
+ 	margin-left: 0px !important;
+ 	margin-right: 0px !important;
+ 	box-shadow: -2px 2px 2px #000;
+ 	width: 40px !important;
+ }
+ .majoram .bottomsloa #spanint a, .majoramd .bottomsloa #spanint a  {
+ 	text-align: center !important;
+ 	margin-left: 0px !important;
+ 	margin-right: 0px !important;
+ 	box-shadow: 2px 2px 2px #000;
+ 	width: 40px !important;
+ }
+ .majoram .bottomsloa #spanroneouteight, .majoramd .bottomsloa #spanroneouteight  {
+ 	padding: 10px 0px !important;
+  	margin: 0px !important;
+  	width: 100% !important;
+ 	background-color:  !important;
+ }
+  .majoram .bottomsloa #spaninr, .majoramd .bottomsloa #spaninr {
+  	background-color:  !important;
+  	padding: 10px 0px !important;
+  	margin: 0px 5px !important;
+  	width: auto !important;
+  }
+.majoram .bottomsloa #spanink, .majoramd .bottomsloa #spanink {
+	width: 50% !important;
+	background-color:  !important;
+	text-align-last: left;
+	padding-left: 12px !important;
+}
+.majoram .bottomsloa #spanint, .majoramd .bottomsloa #spanint {
+	width: 50% !important;
+}
+/*destiny styles*/
+.majoramd  main {
+	height: 425px !important;
+	margin-top: 10px !important;
+	margin-bottom: 10px !important;
+}
+.majoramd  .maina {
+	height: 423px !important;
+	margin-top: 10px !important;
+	margin-bottom: 10px !important;
+}
+.majoramd .routea {
+	
+	background-color:  palegreen !important;
+}
+
+.majoramd #spanroneoutsix {
+	display: block !important;
+	width: 100% !important;
+	height: 100% !important;
+}
+
+.majoramd #spanin {
+background-color:  violet !important;
+visibility: visible !important;		
+width: 100% !important;	
+height: 100% !important;
+margin: 0 !important;	
+}
+.majoramd #spanina {
+	
+width: 100% !important;	
+height: 100% !important;
+margin: 0 !important;
+
+}
+
+.majoramd .maina #spanroneoutsix #spanina {
+	
+width: 100% !important;	
+height: 100% !important;
+margin: 2px 0px 0px 0px !important;
+padding: 0 !important;
+
+}
+ .majoramd .maina #spanroneoutsix #spanin {
+	
+background-color:  violet !important;
+visibility: visible !important;		
+width: auto !important;	
+height: auto !important;
+padding: 10px 0px 0px 4px !important;
+margin: 0 !important;
+}
+
+ .majoramd main #spanroneoutthree #spanina {
+	
+width: auto !important;	
+height: auto !important;
+margin: 0px 0px 0px 0px !important;
+padding: 4px 4px 4px 4px !important;
+
+}
+ .majoramd main #spanroneoutthree #spaninr {
+	
+background-color:   !important;
+visibility: visible !important;		
+width: auto !important;	
+height: auto !important;
+padding: 4px 0px 0px 4px !important;
+margin: 0px  0 0 0 !important;
+}
+.majoramd main #spanroneoutsix #spaninr {
+	
+background-color:   !important;
+visibility: visible !important;		
+width: auto !important;	
+height: auto !important;
+padding: 7px 0px 5px 4px !important;
+margin: 0 !important;
+}
+ #spaninr {
+width: auto !important;	
+padding-left:  4px !important;
+
+}
+ .majoramd .maina #spanroneoutthree #spanina {
+	
+width: auto !important;	
+height: auto !important;
+margin: 4px 0px 0px 0px !important;
+padding: 4px !important;
+
+}
+ .majoramd .maina #spanroneoutthree #spanin {
+	
+background-color:  violet !important;
+visibility: visible !important;		
+width: auto !important;	
+height: auto !important;
+padding: 0px 0px 0px 0px !important;
+margin: 0 !important;
+}
+/*ccharges*/
+#major main {
+    height:479px !important;
+    
+    
+}
+#majorfs main {
+    height:365px !important;
+    
+    
+}
+#majorfam main {
+    height:410px !important;
+
+}
+#majorfd main {
+    height:427px !important;
+    
+    
+}
+
+
+#major #mainzz, #majorfam #mainzz,  #majorfd #mainzz {
+	height: 140px !important;
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+	padding-top: 30px !important;
+	
+	
+}
+/*for schedule*/
+#majorfs #mainzz {
+	height: 140px !important;
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+	padding-top: 30px !important;
+	
+	
+}
+#majorfs #mainyy {
+	height: 305px !important;
+	
+}
+
+
+
+@media screen and (max-width: 450px) {
+    #major main {
+    height:490px !important;
+    
+    
+}
+    
+    
+}
+
+
+
+
+
+
+
+

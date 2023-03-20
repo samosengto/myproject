@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<script>
+		
+		    function gointhng() {
+				    document.major.one.value = "R"
+					
+			};
+		
+			function goin() {
+				if(document.major.one.value === "P") {
+					 
+					document.major.two.value = "19";
+				    document.major.three.style.backgroundColor = "green";
+				} else if(document.major.one.value === "T") {
+					document.major.two.value = "19";
+				    document.major.three.style.backgroundColor = "yellow";
+					
+				} else if(document.major.one.value === "R") {
+					document.major.two.value = "19";
+				    document.major.three.style.backgroundColor = "red";
+					
+				}  else {
+					document.major.two.value = "wrong";
+				    document.major.three.value = "wrong";	
+				}		
+			};	
+			
+				
+			
+		</script>
+	</head>
+	<body onload="gointhng() || goin()">
+	<form name="major">
+		<pre>Name:<input type="text" style="width: 140px;" id="one" name="one" onchange=""/>Age:<input type="text" style="width: 140px;" id="two" name="two"/>Gender:<input type="text" style="width: 140px;" id="three" name="three"/></pre>
+	</form>
+	</body>
+</html>

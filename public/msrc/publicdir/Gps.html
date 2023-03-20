@@ -1,0 +1,667 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Travel location</title>
+		<link rel="stylesheet" href="css/style.css"/>
+		<link rel="icon" href="images/favicon/favi.jpg"/>
+	</head>
+	<body>
+	 <div class="maincontainer" id="maingps">
+	 	<div class="submain" id="subgps">
+	 		<form class="formgpso" id="formo" name="fogpso" action="url" method="post">
+	 		
+	 		    <p class="fbckp" id="fbckpi"><span class="fbcks" id="fbcksi"><span class="lilfts"><a class="fbcka" href="eastern.html" id="backbtn" onclick="DisplayDirMapCloseit()"><img class="fbckimg" src="images/pointers/smartblueeback.jpg"/></a></span><span class="rilfts" id="moveleft"><img src="images/IMG-20220217-WA0029.jpg" class="coachshow" id="leftShow"/></span></span></p><p class="mdlp" id="mdlpi"><span class="mdls" id="mdlsi"><strong class="mdlstrng" id="middlephrase"></strong></span></p><p class="ffwdp" id="ffwdpid"><span class="ffwds" id="ffwdsi"> <span class="lirghts" id="moveright"> <img src="images/gloleft.jpg" class="coachshow" id="rightShow"/></span><span class="rirghts">  <a class="ffwda" href="eschedule.html" id="forwardphrase">Lets Travel</a></span></span></p>
+	 		
+	 		
+	 		   <p class="fomap" id="fomapo">
+	 		   	 <span class="infomap" id="infomapo">
+	 		   	 	<img class="gmapi" src="images/gmap/kmplagmap.jpeg"/>
+	 		   	 	<span class="directo">
+	 		   	 		<span class="indirecto"><a href="#" class="linkom"><img src="images/pointers/backselect.jpg" class="mbckdir"/></a></span>
+	 		   	 	</span>
+	 		   	 	<span class="directo" id="direcidt">
+	 		   	 		<span class="indirecto"><a href="#" class="linkom"><img src="images/markers/carlctn.jpg" class="mbckdir"/></a></span>
+	 		   	 	</span>
+	 		   	 	
+	 		   	 </span><!--End infomap-->	
+	 		   </p>
+	 			<p class="fortexto" id="fofortextoi">
+	 				Enter where you want to go
+	 			</p>
+	 			<input type="text" class="foio" name="foion" placeholder="Enter your destination"/>
+	 			
+	 			<span class="dirent">
+	 			   <script>
+	 			   	
+	 			   	 function DisplayDirMap() {
+	 			   	 	let Url = "https://www.google.co.ug/maps/dir///@0.3211264,32.5910528,13z?hl=en";
+	 			   	 	let DirMap = "OriginDestiny";
+	 			   	 	let Properties = "height=510,width=1366,";
+	 			   	 	let DirMapWindow = window.open(Url, DirMap, Properties);
+	 			   	 	
+	 			   	 	DirMapWindow.moveBy(0,120);
+	 			   	 	setTimeout(() => {
+	 			   	 		DirMapWindow.close()
+	 			   	 		
+	 			   	 	},42600);
+	 			   	 	
+	 			   	 };
+	 			   	function DisplayDirMapClose() {
+	 			   	 	let Url = "https://www.google.co.ug/maps/dir///@0.3211264,32.5910528,13z?hl=en";
+	 			   	 	let DirMap = "OriginDestiny";
+	 			   	 	let Properties = "height=510,width=1366,";
+	 			   	 	let DirMapWindow = window.open(Url, DirMap, Properties);
+	 			   	 	var backButton = document.getElementById("backbtn");
+	 			   	 	var forwardButton = document.getElementById("forwardphrase");
+	 			   	 		
+	 			   	 	if (backButton.onclick == true) {
+	 			   	 	backButton.onclick = DirMapWindow.close();
+	 			   	 	} else {
+	 			   	 	DirMapWindow.moveBy(0,120);	
+	 			   	 		
+	 			   	 	}
+	 			   	 };
+	 			   	
+	 			   	
+	 			   	function DisplayDirMapCloseit() {
+	 			   	 	let Url = "https://www.google.co.ug/maps/dir///@0.3211264,32.5910528,13z?hl=en";
+	 			   	 	let DirMap = "OriginDestiny";
+	 			   	 	let Properties = "height=510,width=1366,";
+	 			   	 	let DirMapWindow = window.open(Url, DirMap, Properties);
+	 			   	 	var backButton = document.getElementById("backbtn");
+	 			   	 	var forwardButton = document.getElementById("forwardphrase");
+	 			   	 	DirMapWindow.close()
+	 			   	 };
+	 			   	 function showBackButton() {
+	 			   	 	var backButton = document.getElementById("backbtn");
+	 			   	 	setTimeout(() => {
+	 			   	 		backButton.style.display = "block";
+	 			   	 		},39600);
+	 			   	 	
+	 			   	 }
+	 			   	 function showForwardButton() {
+	 			   	 	var forwardButton = document.getElementById("forwardphrase");
+	 			   	 	setTimeout(() => {
+	 			   	 		forwardButton.style.display = "inline-block";
+	 			   	 		},39600);
+	 			   	 	
+	 			   	 }
+	 			   	 
+	 			   	 function msg() {
+	 			   	 	setTimeout(() => {
+	 			   	 	var mmsg = document.getElementById('middlephrase');
+	 			   	 	mmsg.appendChild(document.createTextNode("P"));
+	 			   	 		
+	 			   	 	},5000);
+	 			   	 	setTimeout(() => {
+	 			   	 	var mmsg = document.getElementById('middlephrase');
+	 			   	 	mmsg.appendChild(document.createTextNode("l"));
+	 			   	 		
+	 			   	 		
+	 			   	 	},5300);
+	 			   	 	setTimeout(() => {
+	 			   	 	var mmsg = document.getElementById('middlephrase');
+	 			   	 	mmsg.appendChild(document.createTextNode("e"));
+	 			   	 		
+	 			   	 	},5600);
+	 			   	 	setTimeout(() => {
+	 			   	 	var mmsg = document.getElementById('middlephrase');
+	 			   	 	mmsg.appendChild(document.createTextNode("a"));
+	 			   	 		
+	 			   	 		
+	 			   	 	},5900);
+	 			   	 	setTimeout(() => {
+	 			   	 	var mmsg = document.getElementById('middlephrase');
+	 			   	 	mmsg.appendChild(document.createTextNode("s"));
+	 			   	 		
+	 			   	 	},6200);
+	 			   	 	setTimeout(() => {
+	 			   	 	var mmsg = document.getElementById('middlephrase');
+	 			   	 	mmsg.appendChild(document.createTextNode("e"));
+	 			   	 		
+	 			   	 		
+	 			   	 	},6500);
+	 			   	 	setTimeout(() => {
+	 			   	 	var mmsg = document.getElementById('middlephrase');
+	 			   	 	mmsg.appendChild(document.createTextNode(" "));
+	 			   	 		
+	 			   	 	},6800);
+	 			   	 	setTimeout(() => {
+	 			   	 	var mmsg = document.getElementById('middlephrase');
+	 			   	 	mmsg.appendChild(document.createTextNode("E"));
+	 			   	 		
+	 			   	 		
+	 			   	 	},7100);
+	 			   	 	setTimeout(() => {
+	 			   	 	var mmsg = document.getElementById('middlephrase');
+	 			   	 	mmsg.appendChild(document.createTextNode("n"));
+	 			   	 		
+	 			   	 	},7400);
+	 			   	 	setTimeout(() => {
+	 			   	 	var mmsg = document.getElementById('middlephrase');
+	 			   	 	mmsg.appendChild(document.createTextNode("t"));
+	 			   	 		
+	 			   	 		
+	 			   	 	},7700);
+	 			   	 	
+	 			   	 	setTimeout(() => {
+	 			   	 	var mmsg = document.getElementById('middlephrase');
+	 			   	 	mmsg.appendChild(document.createTextNode("e"));
+	 			   	 		
+	 			   	 	},8000);
+	 			   	 	setTimeout(() => {
+	 			   	 	var mmsg = document.getElementById('middlephrase');
+	 			   	 	mmsg.appendChild(document.createTextNode("r"));
+	 			   	 		
+	 			   	 		
+	 			   	 	},8300);
+	 			   	 	setTimeout(() => {
+	 			   	 	var mmsg = document.getElementById('middlephrase');
+	 			   	 	mmsg.appendChild(document.createTextNode(" "));
+	 			   	 		
+	 			   	 	},8600);
+	 			   	 	setTimeout(() => {
+	 			   	 	var mmsg = document.getElementById('middlephrase');
+	 			   	 	mmsg.appendChild(document.createTextNode("Y"));
+	 			   	 		
+	 			   	 		
+	 			   	 	},8900);
+	 			   	 	setTimeout(() => {
+	 			   	 	var mmsg = document.getElementById('middlephrase');
+	 			   	 	mmsg.appendChild(document.createTextNode("o"));
+	 			   	 		
+	 			   	 	},9200);
+	 			   	 	setTimeout(() => {
+	 			   	 	var mmsg = document.getElementById('middlephrase');
+	 			   	 	mmsg.appendChild(document.createTextNode("u"));
+	 			   	 		
+	 			   	 		
+	 			   	 	},9500);
+	 			   	 	setTimeout(() => {
+	 			   	 	var mmsg = document.getElementById('middlephrase');
+	 			   	 	mmsg.appendChild(document.createTextNode("r"));
+	 			   	 		
+	 			   	 	},9800);
+	 			   	 	setTimeout(() => {
+	 			   	 	var mmsg = document.getElementById('middlephrase');
+	 			   	 	mmsg.appendChild(document.createTextNode(" "));
+	 			   	 		
+	 			   	 		
+	 			   	 	},10100);
+	 			   	 	
+	 			   	 	setTimeout(() => {
+	 			   	 	var mmsg = document.getElementById('middlephrase');
+	 			   	 	mmsg.appendChild(document.createTextNode("C"));
+	 			   	 		
+	 			   	 	},10400);
+	 			   	 	setTimeout(() => {
+	 			   	 	var mmsg = document.getElementById('middlephrase');
+	 			   	 	mmsg.appendChild(document.createTextNode("u"));
+	 			   	 		
+	 			   	 		
+	 			   	 	},10700);
+	 			   	 	setTimeout(() => {
+	 			   	 	var mmsg = document.getElementById('middlephrase');
+	 			   	 	mmsg.appendChild(document.createTextNode("r"));
+	 			   	 		
+	 			   	 	},11000);
+	 			   	 	setTimeout(() => {
+	 			   	 	var mmsg = document.getElementById('middlephrase');
+	 			   	 	mmsg.appendChild(document.createTextNode("r"));
+	 			   	 		
+	 			   	 		
+	 			   	 	},11300);
+	 			   	 	setTimeout(() => {
+	 			   	 	var mmsg = document.getElementById('middlephrase');
+	 			   	 	mmsg.appendChild(document.createTextNode("e"));
+	 			   	 		
+	 			   	 	},11600);
+	 			   	 	setTimeout(() => {
+	 			   	 	var mmsg = document.getElementById('middlephrase');
+	 			   	 	mmsg.appendChild(document.createTextNode("n"));
+	 			   	 		
+	 			   	 		
+	 			   	 	},11900);
+	 			   	 	
+	 			   	 	setTimeout(() => {
+	 			   	 	var mmsg = document.getElementById('middlephrase');
+	 			   	 	mmsg.appendChild(document.createTextNode("t"));
+	 			   	 		
+	 			   	 	},12200);
+	 			   	 	setTimeout(() => {
+	 			   	 	var mmsg = document.getElementById('middlephrase');
+	 			   	 	mmsg.appendChild(document.createTextNode(" "));
+	 			   	 		
+	 			   	 		
+	 			   	 	},12500);
+	 			   	 	setTimeout(() => {
+	 			   	 	var mmsg = document.getElementById('middlephrase');
+	 			   	 	mmsg.appendChild(document.createTextNode("L"));
+	 			   	 		
+	 			   	 	},12800);
+	 			   	 	setTimeout(() => {
+	 			   	 	var mmsg = document.getElementById('middlephrase');
+	 			   	 	mmsg.appendChild(document.createTextNode("o"));
+	 			   	 		
+	 			   	 		
+	 			   	 	},13100);
+	 			   	 	setTimeout(() => {
+	 			   	 	var mmsg = document.getElementById('middlephrase');
+	 			   	 	mmsg.appendChild(document.createTextNode("c"));
+	 			   	 		
+	 			   	 	},13400);
+	 			   	 	setTimeout(() => {
+	 			   	 	var mmsg = document.getElementById('middlephrase');
+	 			   	 	mmsg.appendChild(document.createTextNode("a"));
+	 			   	 		
+	 			   	 		
+	 			   	 	},13700);
+	 			   	 	setTimeout(() => {
+	 			   	 	var mmsg = document.getElementById('middlephrase');
+	 			   	 	mmsg.appendChild(document.createTextNode("t"));
+	 			   	 		
+	 			   	 	},14000);
+	 			   	 	setTimeout(() => {
+	 			   	 	var mmsg = document.getElementById('middlephrase');
+	 			   	 	mmsg.appendChild(document.createTextNode("i"));
+	 			   	 		
+	 			   	 		
+	 			   	 	},14300);
+	 			   	 	setTimeout(() => {
+	 			   	 	var mmsg = document.getElementById('middlephrase');
+	 			   	 	mmsg.appendChild(document.createTextNode("o"));
+	 			   	 		
+	 			   	 	},14600);
+	 			   	 	setTimeout(() => {
+	 			   	 	var mmsg = document.getElementById('middlephrase');
+	 			   	 	mmsg.appendChild(document.createTextNode("n"));
+	 			   	 		
+	 			   	 		
+	 			   	 	},14900);
+	 			   	 	setTimeout(() => {
+	 			   	 	var mmsg = document.getElementById('middlephrase');
+	 			   	 	mmsg.appendChild(document.createTextNode(" "));
+	 			   	 		
+	 			   	 	},15200);
+	 			   	 	setTimeout(() => {
+	 			   	 	var mmsg = document.getElementById('middlephrase');
+	 			   	 	mmsg.appendChild(document.createTextNode("A"));
+	 			   	 		
+	 			   	 		
+	 			   	 	},15500);
+	 			   	 	
+	 			   	 	setTimeout(() => {
+	 			   	 	var mmsg = document.getElementById('middlephrase');
+	 			   	 	mmsg.appendChild(document.createTextNode("n"));
+	 			   	 		
+	 			   	 	},15800);
+	 			   	 	setTimeout(() => {
+	 			   	 	var mmsg = document.getElementById('middlephrase');
+	 			   	 	mmsg.appendChild(document.createTextNode("d"));
+	 			   	 		
+	 			   	 		
+	 			   	 	},16100);
+	 			   	 	setTimeout(() => {
+	 			   	 	var mmsg = document.getElementById('middlephrase');
+	 			   	 	mmsg.appendChild(document.createTextNode(" "));
+	 			   	 		
+	 			   	 	},16400);
+	 			   	 	setTimeout(() => {
+	 			   	 	var mmsg = document.getElementById('middlephrase');
+	 			   	 	mmsg.appendChild(document.createTextNode("D"));
+	 			   	 		
+	 			   	 		
+	 			   	 	},16700);
+	 			   	 	setTimeout(() => {
+	 			   	 	var mmsg = document.getElementById('middlephrase');
+	 			   	 	mmsg.appendChild(document.createTextNode("e"));
+	 			   	 		
+	 			   	 	},17000);
+	 			   	 	setTimeout(() => {
+	 			   	 	var mmsg = document.getElementById('middlephrase');
+	 			   	 	mmsg.appendChild(document.createTextNode("s"));
+	 			   	 		
+	 			   	 		
+	 			   	 	},17300);
+	 			   	 	
+	 			   	 	setTimeout(() => {
+	 			   	 	var mmsg = document.getElementById('middlephrase');
+	 			   	 	mmsg.appendChild(document.createTextNode("t"));
+	 			   	 		
+	 			   	 	},17600);
+	 			   	 	setTimeout(() => {
+	 			   	 	var mmsg = document.getElementById('middlephrase');
+	 			   	 	mmsg.appendChild(document.createTextNode("i"));
+	 			   	 		
+	 			   	 		
+	 			   	 	},17900);
+	 			   	 	setTimeout(() => {
+	 			   	 	var mmsg = document.getElementById('middlephrase');
+	 			   	 	mmsg.appendChild(document.createTextNode("n"));
+	 			   	 		
+	 			   	 	},18200);
+	 			   	 	setTimeout(() => {
+	 			   	 	var mmsg = document.getElementById('middlephrase');
+	 			   	 	mmsg.appendChild(document.createTextNode("a"));
+	 			   	 		
+	 			   	 		
+	 			   	 	},18500);
+	 			   	 	setTimeout(() => {
+	 			   	 	var mmsg = document.getElementById('middlephrase');
+	 			   	 	mmsg.appendChild(document.createTextNode("t"));
+	 			   	 		
+	 			   	 	},18800);
+	 			   	 	setTimeout(() => {
+	 			   	 	var mmsg = document.getElementById('middlephrase');
+	 			   	 	mmsg.appendChild(document.createTextNode("i"));
+	 			   	 		
+	 			   	 		
+	 			   	 	},19100);
+	 			   	 	setTimeout(() => {
+	 			   	 	var mmsg = document.getElementById('middlephrase');
+	 			   	 	mmsg.appendChild(document.createTextNode("o"));
+	 			   	 		
+	 			   	 	},19400);
+	 			   	 	setTimeout(() => {
+	 			   	 	var mmsg = document.getElementById('middlephrase');
+	 			   	 	mmsg.appendChild(document.createTextNode("n"));
+	 			   	 		
+	 			   	 		
+	 			   	 	},19700);
+	 			   	 	setTimeout(() => {
+	 			   	 	var mmsg = document.getElementById('middlephrase');
+	 			   	 	mmsg.appendChild(document.createTextNode(" "));
+	 			   	 		
+	 			   	 	},20000);
+	 			   	 	setTimeout(() => {
+	 			   	 	var mmsg = document.getElementById('middlephrase');
+	 			   	 	mmsg.appendChild(document.createTextNode("B"));
+	 			   	 		
+	 			   	 		
+	 			   	 	},20300);
+	 			   	 	setTimeout(() => {
+	 			   	 	var mmsg = document.getElementById('middlephrase');
+	 			   	 	mmsg.appendChild(document.createTextNode("e"));
+	 			   	 		
+	 			   	 	},20600);
+	 			   	 	setTimeout(() => {
+	 			   	 	var mmsg = document.getElementById('middlephrase');
+	 			   	 	mmsg.appendChild(document.createTextNode("l"));
+	 			   	 		
+	 			   	 		
+	 			   	 	},20900);
+	 			   	 	setTimeout(() => {
+	 			   	 	var mmsg = document.getElementById('middlephrase');
+	 			   	 	mmsg.appendChild(document.createTextNode("o"));
+	 			   	 		
+	 			   	 	},21200);
+	 			   	 	setTimeout(() => {
+	 			   	 	var mmsg = document.getElementById('middlephrase');
+	 			   	 	mmsg.appendChild(document.createTextNode("w"));
+	 			   	 		
+	 			   	 		
+	 			   	 	},21500);
+	 			   	 	setTimeout(() => {
+	 			   	 	var mmsg = document.getElementById('middlephrase');
+	 			   	 	mmsg.appendChild(document.createTextNode(" "));
+	 			   	 		
+	 			   	 	},21800);
+	 			   	 	setTimeout(() => {
+	 			   	 	var mmsg = document.getElementById('middlephrase');
+	 			   	 	mmsg.appendChild(document.createTextNode("T"));
+	 			   	 		
+	 			   	 		
+	 			   	 	},22100);
+	 			   	 	setTimeout(() => {
+	 			   	 	var mmsg = document.getElementById('middlephrase');
+	 			   	 	mmsg.appendChild(document.createTextNode("o"));
+	 			   	 		
+	 			   	 	},22400);
+	 			   	 	setTimeout(() => {
+	 			   	 	var mmsg = document.getElementById('middlephrase');
+	 			   	 	mmsg.appendChild(document.createTextNode(" "));
+	 			   	 		
+	 			   	 		
+	 			   	 	},22700);
+	 			   	 	setTimeout(() => {
+	 			   	 	var mmsg = document.getElementById('middlephrase');
+	 			   	 	mmsg.appendChild(document.createTextNode("C"));
+	 			   	 		
+	 			   	 	},23000);
+	 			   	 	setTimeout(() => {
+	 			   	 	var mmsg = document.getElementById('middlephrase');
+	 			   	 	mmsg.appendChild(document.createTextNode("o"));
+	 			   	 		
+	 			   	 		
+	 			   	 	},23300);
+	 			   	 	setTimeout(() => {
+	 			   	 	var mmsg = document.getElementById('middlephrase');
+	 			   	 	mmsg.appendChild(document.createTextNode("n"));
+	 			   	 		
+	 			   	 	},23600);
+	 			   	 	setTimeout(() => {
+	 			   	 	var mmsg = document.getElementById('middlephrase');
+	 			   	 	mmsg.appendChild(document.createTextNode("t"));
+	 			   	 		
+	 			   	 		
+	 			   	 	},23900);
+	 			   	 	setTimeout(() => {
+	 			   	 	var mmsg = document.getElementById('middlephrase');
+	 			   	 	mmsg.appendChild(document.createTextNode("i"));
+	 			   	 		
+	 			   	 	},24200);
+	 			   	 	setTimeout(() => {
+	 			   	 	var mmsg = document.getElementById('middlephrase');
+	 			   	 	mmsg.appendChild(document.createTextNode("n"));
+	 			   	 		
+	 			   	 		
+	 			   	 	},24500);
+	 			   	 	setTimeout(() => {
+	 			   	 	var mmsg = document.getElementById('middlephrase');
+	 			   	 	mmsg.appendChild(document.createTextNode("u"));
+	 			   	 		
+	 			   	 	},24800);
+	 			   	 	setTimeout(() => {
+	 			   	 	var mmsg = document.getElementById('middlephrase');
+	 			   	 	mmsg.appendChild(document.createTextNode("e"));
+	 			   	 		
+	 			   	 		
+	 			   	 	},25100);
+	 			   	 	setTimeout(() => {
+	 			   	 	var mmsg = document.getElementById('middlephrase');
+	 			   	 	mmsg.appendChild(document.createTextNode("."));
+	 			   	 		
+	 			   	 	},25400);
+	 			   	 	setTimeout(() => {
+	 			   	 	var mmsg = document.getElementById('middlephrase');
+	 			   	 	mmsg.appendChild(document.createTextNode("."));
+	 			   	 		
+	 			   	 		
+	 			   	 	},25700);
+	 			   	 	setTimeout(() => {
+	 			   	 	var mmsg = document.getElementById('middlephrase');
+	 			   	 	mmsg.appendChild(document.createTextNode("."));
+	 			   	 		
+	 			   	 	},26000);
+	 			   	 	setTimeout(() => {
+	 			   	 	var mmsg = document.getElementById('middlephrase');
+	 			   	 	mmsg.appendChild(document.createTextNode(" "));
+	 			   	 		
+	 			   	 		
+	 			   	 	},26300);
+	 			   	 	
+	 			   	 	
+	 			   	 	setTimeout(() => {
+	 			   	 	var mmsg = document.getElementById('middlephrase');
+	 			   	 	mmsg.style.border = "2px solid black";
+	 			   	 	mmsg.style.padding = "4px";
+	 			   	 	mmsg.style.boxShadow = "2p 2px 2px gray";
+	 			   	 	},26600);
+	 			   	 	setTimeout(() => {
+	 			   	 	var mmsg = document.getElementById('middlephrase');
+	 			   	 	mmsg.style.border = "0px solid black";
+	 			   	 	mmsg.style.padding = "4px";
+	 			   	 	},27600);
+	 			   	 	setTimeout(() => {
+	 			   	 	var mmsg = document.getElementById('middlephrase');
+	 			   	 	mmsg.style.border = "2px solid lightblue";
+	 			   	 	mmsg.style.padding = "4px";
+	 			   	 	},28600);
+	 			   	 	setTimeout(() => {
+	 			   	 	var mmsg = document.getElementById('middlephrase');
+	 			   	 	mmsg.style.border = "0px solid black";
+	 			   	 	mmsg.style.padding = "4px";
+	 			   	 	},29600);
+	 			   	 	setTimeout(() => {
+	 			   	 	var mmsg = document.getElementById('middlephrase');
+	 			   	 	mmsg.style.border = "2px solid orange";
+	 			   	 	mmsg.style.padding = "4px";
+	 			   	 	},30600);
+	 			   	 	setTimeout(() => {
+	 			   	 	var mmsg = document.getElementById('middlephrase');
+	 			   	 	mmsg.style.border = "0px solid black";
+	 			   	 	mmsg.style.padding = "4px";
+	 			   	 	},31600);
+	 			   	 	setTimeout(() => {
+	 			   	 	var mmsg = document.getElementById('middlephrase');
+	 			   	 	mmsg.style.border = "2px solid blue";
+	 			   	 	mmsg.style.padding = "4px";
+	 			   	 	},32600);
+	 			   	 	setTimeout(() => {
+	 			   	 	var mmsg = document.getElementById('middlephrase');
+	 			   	 	mmsg.style.border = "0px solid black";
+	 			   	 	mmsg.style.padding = "4px";
+	 			   	 	},33600);
+	 			   	 	setTimeout(() => {
+	 			   	 	var mmsg = document.getElementById('middlephrase');
+	 			   	 	mmsg.style.border = "2px solid green";
+	 			   	 	mmsg.style.padding = "4px";
+	 			   	 	},34600);
+	 			   	 	setTimeout(() => {
+	 			   	 	var mmsg = document.getElementById('middlephrase');
+	 			   	 	mmsg.style.border = "0px solid black";
+	 			   	 	mmsg.style.padding = "4px";
+	 			   	 	},35600);
+	 			   	 	setTimeout(() => {
+	 			   	 	var mmsg = document.getElementById('middlephrase');
+	 			   	 	mmsg.style.border = "2px solid forestgreen";
+	 			   	 	mmsg.style.padding = "4px";
+	 			   	 	},36600);
+	 			   	 	
+	 			   	 	setTimeout(() => {
+	 			   	 	var mmsg = document.getElementById('middlephrase');
+	 			   	 	mmsg.style.display = "none";
+	 			   	 	mmsg.style.padding = "4px";
+	 			   	 	},38600);
+	 			   	 	
+	 			   	 	
+	 			   	 	
+	 			   	 }//end msg()
+	 			   	 
+	 			   	 
+	 			   	 function appear() {
+	 			   	    setTimeout(() => { 
+	 			   	 	   
+	 			   	 	var moveaa = document.getElementById('leftShow');
+	 			   	 	var movebb = document.getElementById('rightShow');
+	 			   	 	moveaa.style.display = "inline-block";
+	 			   	 	movebb.style.display = "inline-block";
+	 			   	 	
+	 			   	 	},40600);	
+	 			   	 }
+	 			   	 
+	 			   	 function move() {
+	 			   	 	
+	 			   	 	setTimeout(() => {
+	 			   	 	var movea = document.getElementById('moveleft');
+	 			   	 	var moveb = document.getElementById('moveright');
+	 			   	 	movea.style.textAlign = "left";
+	 			   	 	moveb.style.textAlign = "right";
+	 			   	 	},41600);
+	 			
+	 			   	 }
+	 			   	 
+	 			   	 
+	 			   	 
+	 			   </script>
+	 			
+	 			
+	 			
+	 			<input type="button" class="Entero" name="foion" value="Enter" onclick="showForwardButton() || showBackButton() || DisplayDirMap() || msg() || appear() || move()"/>
+	 		
+	 			    <span class="directo" id="direcidot">
+	 		   	 		<span class="indirecto" id="tosho"><a href="#" class="linkom"><img src="images/markers/plcelctnt.jpg" class="mbckdir"/></a></span>
+	 		   	 	</span>
+	 			 </span>
+	 			
+	 		</form>
+	 	</div><!--submain-->
+	 	
+	 	<!--==============================================================FOOTER SECTION=====================================================================================-->
+	    	
+	    	<footer class="desfooter">
+	    	  <div class="subfooterone">
+	    	  	<div class="subfooteronein">
+	    <!--=====================First Row===========================-->
+	    	  	 <div class="left">
+	    	  	 	<div class="fin">
+	    	  	 	  <span class="homs"><a class="forhom" href="home.html"><img class="homebck" src="images/pointers/home.jpg" align="middle"/><span class="jhome"> Home</span></a></span>	
+	    	  	 	</div>
+	    	  	 </div>
+	    	  	 <div class="right" id="rightfid">
+	    	  	 	<div class="fin">
+	    	  	 	  <span class="oblog"><a class="obloga" href="oblog.html">Our Blog</a></span>	
+	    	  	 	</div>
+	    	  	 </div>
+	    <!--=====================second Row===========================-->
+	    	  	 <div class="left">
+	    	  	 	<div class="fin">
+	    	  	 	  <p class="aboutu"><a class="aboutua" href="aboutus.html">About us</a></p>	
+	    	  	 	</div>
+	    	  	 </div>
+	    	  	 <div class="right" id="rightfid">
+	    	  	 	<div class="fin" id="divme">
+	    	  	 	  <div class="onea" id="edope">
+	    	  	 	  	<p class="great"><a class="socialf" href="#"><img class="sm" src="images/social/facebook.png"/></a></p>
+	    	  	 	  </div>
+	    	  	 	  <div class="oneb" id="iyarei">
+	    	  	 	  	<p class="great"><a class="socialf" href="#"><img class="sm" src="images/social/twitter.png"/></a></p>
+	    	  	 	  </div>
+	    	  	 	  <div class="onec" id="iwuni">
+	    	  	 	  	<p class="great"><a class="socialf" href="#"><img class="sm" src="images/social/youtube.png"/></a></p>
+	    	  	 	  </div>
+	    	  	 	  
+	    	  	 	  
+	    	  	 	  
+	    	  	 	</div>
+	    	  	 </div>	  		
+	    <!--=====================third Row===========================-->
+	    	  	 <div class="left">
+	    	  	 	<div class="fin">
+	    	  	      <p class="faq"><a class="faqa" href="travofaq.html">FAQ</a></p>
+	    	  	 	</div>
+	    	  	 </div>
+	    	  	 <div class="right" id="rightfid">
+	    	  	 	<div class="fin">
+	    	  	 	  <p class="bcomp"><a class="bcompa" href="buscomp.html">Bus Companies</a></p>
+	    	  	 	</div>
+	    	  	 </div>	 	  		
+	    	  		
+	    	  	</div><!--End subfooter one in-->	
+	    	  </div><!--End sub footer one-->
+	    	  <div class="subfootertwo">
+	    	   <div class="subfootertwoin">
+	    	   	 <p class="subfott">&copy; 2022 Travofast&#174; p.o box , old kampala-Road , Kampala Uganda. All Rights reserved <br/>Each specific company above has its module pof operation as terms and conditions under which they operate, travofast has no right to modify, adjust or change any mode of oerations or terms and conditions underwhich the above operate. use us for the unity and simplification of transport acquitance and service aid delivery ,Thanks!</p>    	   	
+	    	   </div><!--End subfooter two in-->
+	    	  </div><!--End sub footer two-->  	
+	    	</footer>		    
+	 	
+	 	
+	 	
+	 	
+	 	
+	 </div><!--End maincontainer-->
+	</body>
+</html>
