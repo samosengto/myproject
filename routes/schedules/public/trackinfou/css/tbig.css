@@ -1,0 +1,25 @@
+
+a {
+				
+				padding: 4px 12px;
+				background-color: orange;
+				text-decoration: none;
+				border-radius: 20px/24px;
+				box-shadow: 2px 2px 2px black;
+				text-shadow: 1px 1px black;
+				font-size: 17px;
+			}
+
+#tracklink {
+	float: right; 
+	margin: 0px 4px;
+	font-size: medium;
+}
+
+
+
+
+
+
+
+

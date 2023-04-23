@@ -1,0 +1,278 @@
+/* Medium Screen Device Style Sheet*/
+#spanroneoutone {
+	width: 11% !important;
+	
+}
+
+#spanroneouttwo {
+	width: 20% !important;
+	
+}
+
+#spanroneoutthree {
+	width: 18% !important;
+	
+}
+
+#spanroneoutfour {
+	width: 18% !important;
+	
+}
+
+
+#spanroneoutfive {
+	
+	width: 16% !important;
+	
+}
+
+#spanroneoutsix {
+	width: 0% !important;
+	
+	
+}
+
+#spanroneoutseven {
+	width: 10% !important;
+	
+}
+
+#spanroneouteight {
+	width: 7% !important;
+	
+}
+
+
+
+ main {
+	background-color: green !important;
+	height: 43px !important;
+}
+
+.maina {
+	height: 95px !important;
+	
+	
+}
+#routeae, #routeaae {
+	margin: 16px 0px 0px 0px !important;
+	
+	 
+	
+}
+
+.routea {
+	margin: 0px 0px 0px 0px !important;
+	display: none !important;
+	
+}
+.leftloa {
+	display: none !important;
+}
+.leftloae {
+	display: block !important;
+	
+	background-color: pink !important;
+}
+#spanroneoutone, #spanroneouttwo, #spanroneoutthree, #spanroneoutfour, #spanroneoutfive, #spanroneoutsix, #spanroneouteight  {
+	padding: 5px auto !important;
+	height: 50px !important;
+	
+}
+#spanine {
+	padding: 8px 4px 8px 8px !important;
+	background-color: pink !important;
+	height: 50px !important;
+}
+
+  
+
+#titlespan, #fortitlehd, #fortitlehdy, #fortitleshn, #titlespana, #titlespanaes {
+	display: block !important;
+	background-color: transparent !important;
+	padding: 10px auto !important;
+}
+ 
+#spanina {
+	margin: -5px 0 4px 0 !important;
+	background-color: pink !important;
+	height: 100% !important;
+}
+
+
+.rightsloa {
+	display: block !important;
+}
+
+
+
+
+/*schedule styles*/
+
+body {
+	background-color: #555555 !important;
+	
+}
+#mainzz {
+	height: 140px !important;
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+	padding-top: 0px !important;
+	
+	
+}
+.leftloae {
+	
+	margin-top: -5px !important;
+	
+}
+.majors  main routea {
+	display: none;
+}
+
+
+.majors {
+	background-color: violet !important;
+	
+}
+.majors  main {
+	background-color: violet !important;
+}
+#mainyy {
+	display: block !important;
+	 float: none;
+	 clear: both;
+	padding-top: 0px !important;
+	margin-top: 27px !important;
+	background-color: palegreen !important;
+}
+
+.majors  #mainyy {
+	height:0px !important;
+}
+
+#mainyy a {
+	background-color: #ffeff4;
+	text-decoration: none;
+	opacity: 0.7;
+	border-radius: 5px;
+	font-family: Helvetica, serif;
+	font-weight: lighter;
+	color: lightgrey;
+	padding: 2px 5px;
+	
+}
+
+
+.alldivsa {
+	background-color: palegreen !important;
+	text-align-last: center;
+}
+.alldivs {
+	background-color: purple !important;
+	padding: 25px 5px !important;
+	text-shadow: 1px 1px 1px #000;
+	color: #fff;
+}
+.alldivsb {
+	background-color: darkslategray !important;
+	padding: 25px 5px !important;
+	line-height: 25px;
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+	color: #fff;
+}
+
+.labelonespan {
+	width: auto;
+	float: left;
+	clear: none;
+	margin: 0;
+	padding: 0;
+}
+.labelonespanl {
+	
+	float: left;
+	clear: none;
+	margin: 0;
+	padding: 0;
+	
+}
+.labelonespanr {
+	
+	
+	float: right;
+	clear: right;
+	margin: 0;
+	padding: 0;
+	
+}
+.majors .bottomsloa  {
+    height: 51px !important;
+	 
+}
+
+
+
+/*parked styles*/
+#majors {
+	
+	float: none !important;
+	clear: both !important;
+}
+.majoram {
+	background-color: violet !important;
+	float: none !important;
+	clear: both !important;
+	padding: 0 !important;
+	margin: 0 !important;
+}
+#majors main, .majoram main {
+	background-color: violet !important;
+	float: none !important;
+	clear: both !important;
+	padding: 0 !important;
+	margin: 0 !important;
+}
+body {
+	padding: 0 !important;
+	margin: 0 !important;
+	
+}
+/*already moving buses*/
+
+ .majoram .routeaamd {
+	 padding: 15px 5px!important;
+	 margin: 0px 0 0px 0 !important;
+	 border-top-left-radius: 0px;
+	 border-top-right-radius: 0px;
+	 text-align-last: left;
+	  background-color: palegreen !important;
+}
+
+
+.leftloaamd #spanroneouteight {
+	 background-color: violet !important;
+	 display: block !important;
+	
+	 margin-top: -5px !important;
+}
+/*status index page*/
+.forstatuss {
+	
+	color:  !important;
+	
+}
+
+.fas {
+	
+	margin-left: 300px !important;
+}
+
+
+
+
+
+
+
+

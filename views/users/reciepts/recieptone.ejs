@@ -1,0 +1,94 @@
+ <!doctype html>
+<html>
+  <head>
+        <meta charset="utf8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>
+        <title></title>
+        <style type="text/css">
+
+        .tittlie {
+
+        	position: relative;
+        	right: 5px;
+        	width:auto;
+        	padding: 5px;
+        	background-color: grey;
+
+        }
+          h1 {
+          	font-weight: lighter;
+          	text-shadow: 1px 1px blue;
+
+          }
+           label {
+           	 display: inline-block;
+           	 width: 120px;
+
+           }
+
+           #adminlog {
+           	 display: none;
+
+           }
+
+
+           input {
+           	 display: inline-block;
+           	width: 250px;
+           	height: 20px;
+           }
+
+           input[type=submit] {
+           	width: 70px;
+           	margin-left: 305px;
+           	height: 27px;
+           	display: block;
+
+           }
+           .leftdivider {
+           	height: auto;
+           	padding: ;
+           	width: 10%;
+           	margin-top: 5px;
+           }
+
+        </style>
+    </head>
+    <body>
+       <div>
+        <fieldset>
+         <form method="POST" action="/users" id="client" class="logform">
+          <p class="tittlie">RECIEPT</p>
+          <h1>Journey Paid By:</h1>
+          <label for="name">Name:</label><input type="text" id="name" name="clientname"><br/><br/>
+          <label for="phone">Phone:</label><input type="tel" id="phone" name="clientphonenumber" required/><br/><br/>
+          <label for="from">From:</label><input type="text" id="from" name="from"><br/><br/>
+          <label for="to">to:</label><input type="text" id="to" name="to"><br/><br/>
+          <label for="reciept">Reciept No:</label><input type="text" id="reciept" name="recieptno" placeholder="001" readonly/><br/><br/>
+          <input type="submit" id="pay" value="Pay" name="Status">
+         </form>
+         <button class="leftdivider"><- -</button><button class="leftdivider">- -></button><button class="leftdivider"><- -</button><button class="leftdivider">- -></button><button class="leftdivider" onclick="bologyam()"><<-</button><button class="leftdivider">->></button><button class="leftdivider"><- -</button><button class="leftdivider">- -></button><button class="leftdivider"><- -</button><button class="leftdivider">- -></button>
+
+         <form method="POST" action"/" id="adminlog" class="logform">
+          <h1>REQUIRES PASSCODE:</h1>
+          <label for="company">Company Name:</label><input type="text" id="company" name="company"/><br/><br/>
+          <label for="passcode">PassCode:</label><input type="text" id="passcode" name="adminpasscode" required/><br/><br/>
+          <input type="submit" id="enter" value="Enter" name="Status"/>
+         </form>
+
+         </fieldset>
+       </div>
+
+       <script>
+
+         	function bologyam() {
+         		var takeme = document.getElementById('adminlog');
+         		var removeit = document.getElementById('client');
+         		 takeme.style.display = 'block';
+         		 removeit.style.display ='none';
+         	};
+
+         </script>
+
+    </body>
+</html> 
