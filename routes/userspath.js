@@ -165,10 +165,10 @@ var ccodeoney = "UCO2023Y";
 var ckeyoney = "_20B32a";
 var cpasswordoney = "25%00b2Y0z2A3";
 
-var tcomponex = "Bukoola";
-var ccodeonex = "UBU2023Z";
-var ckeyonex = "'20D32c";
-var cpasswordonex = "26-00d2X0b2C3";
+var tcomponez = "Bukoola";
+var ccodeonez = "UBU2023Z";
+var ckeyonez = "'20D32c";
+var cpasswordonez = "26-00d2X0b2C3";
 
 var bee = "jon";
 var few = "sam";
@@ -267,7 +267,7 @@ if(newUserPhoneNumber !== "" && newUserSignbtn === "Signin.") {
 	res.send("<body style='background-color:#d2f6ff;'><div style='text-align: center; color:#ff5500; margin-top: 200px;'>Successful!<br/><a href='https://travofast.herokuapp.com/userspath/signatures/admin/tadminone' style='text-decoration: none; background-color: lightgrey; padding: 4px; display: inline-block; margin-top: 4px; border-radius: 2px/3px;'>Proceed</a></div></body> ");
 } else  if(companyname === tcomponej && password === cpasswordonej) {
 	console.log("Admin Logged in:" + " " + "Company:" + " " + companyname + " and password: " + password + " on " + currentDate);
-	res.send("<body style='background-color:#d2f6ff;'><div style='text-align: center; color:#ff5500; margin-top: 200px;'>Successfully Logged in &#10003; <br/><a href=https://travofast.herokuapp.com/usersj/dashboards/componedbj' style='text-decoration: none; background-color: lightgrey; padding: 4px; display: inline-block; margin-top: 4px; border-radius: 2px/3px;'>Continue</a></div></body> ");
+	res.send("<body style='background-color:#d2f6ff;'><div style='text-align: center; color:#ff5500; margin-top: 200px;'>Successfully Logged in &#10003; <br/><a href='https://travofast.herokuapp.com/usersj/dashboards/componedbj' style='text-decoration: none; background-color: lightgrey; padding: 4px; display: inline-block; margin-top: 4px; border-radius: 2px/3px;'>Continue</a></div></body> ");
 } else if(desiredCompany === tcomponek && companyCode === ccodeonek) {
 	console.log("A user Signed in:" + " " + "company:" + " " + desiredCompany + " and Code: " + companyCode + " on " + currentDate);
 	res.send("<body style='background-color:#55557f;'><div style='text-align: center; color:#fff; margin-top: 200px;'>Welcome!<br/><a href='https://travofast.herokuapp.com/msrc/ssrc/comps/eschedulek.html' style='text-decoration: none; background-color: lightgrey; padding: 4px; display: inline-block; margin-top: 4px; border-radius: 2px/3px;'>Proceed</a></div></body> ");
