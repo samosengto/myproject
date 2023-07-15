@@ -4,19 +4,39 @@
 		<meta charset="utf-8">
 		<title>Contact us</title>
 		<link rel="stylesheet" href="css/style.css"/>
+		<style>
+			#msg, #sbmt {
+				
+				position: relative;
+				right: 0px;
+				display: block;
+				margin: 7px auto;
+				float: right !important;
+	            clear: both !important;
+			}
+			#name, #msg {
+				
+				color: #000 !important;
+				
+			}
+			
+		</style>
 	</head>
 	<body>
 	 <div class="maincontainer">
 	 	<div class="submain">
-	 	<h1 class="chead">Kira Transportation Company LTD</h1>
-	 		<form class="com" method="post" action="" name="">
+	 	<h1 class="chead">Travofast Company LTD</h1>
+	 	<h2 class="chead">Contact Us</h2>
+	 	
+	 		<form class="com" action="https://formsubmit.co/travofast0@gmail.com" method="POST">
 	 		<fieldset class="fleg">
-	 		 <legend class="coml" >Fill You Details then submit your message to ue please</legend>
-	 			<label for="name">First Name:</label> <input type="text" id="name" aria-required="true" aria-controls="" placeholder="Type your family name "/>
-	 			<label for="name">Last Name:</label> <input type="text" id="name" aria-required="true" aria-controls="" placeholder="Type your given  name "/>
-	 			<label for="name">E-mail:</label> <input type="text" id="name" aria-required="true" aria-controls="" placeholder="Enter your Email"/>
-	 			<textarea cols="50" rows="20" type="text" id="name" aria-required="true" aria-controls="" placeholder="type here your message for us "></textarea>
-	 		     <input type="submit" id="name" aria-required="true" aria-controls="" value="submit"/>
+	 		 <legend class="coml" >Fill in Details then submit us your message </legend>
+	 			<label for="name">First Name:</label> <input type="text" name="First Name" id="name" aria-required="true" aria-controls="" placeholder="Type your family name "/>
+	 			<label for="name">Last Name:</label> <input type="text" name="Last Name" id="name" aria-required="true" aria-controls="" placeholder="Type your given  name "/>
+	 			<label for="name">E-mail:</label> <input type="text" name="E-mail" id="name" aria-required="true" aria-controls="" placeholder="Enter your Email"/>
+	 			<label for="msg">Message:</label> 
+	 			<textarea name="Message" cols="50" rows="20" type="text" id="msg" aria-required="true" aria-controls="" placeholder="type here your message for us "></textarea>
+	 		     <input type="submit" id="sbmt" aria-required="true" aria-controls="" value="submit"/>
 	 		 </fieldset>	
 	 		</form>	 		
 	 		
