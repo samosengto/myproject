@@ -9,6 +9,23 @@
 		<link rel="icon" href="images/favicon/favi.jpg"/>
 		<link rel='stylesheet' href='css/responsive/smalls.css' media='screen and (min-width: 0px) and (max-width: 899px)'/>
 		<title>contact us</title>
+		<style>
+			#msg, #sbmt {
+				
+				position: relative;
+				right: 0px;
+				display: block;
+				margin: 7px auto;
+				float: right !important;
+	            clear: both !important;
+			}
+			#name, #msg {
+				
+				color: #000 !important;
+				
+			}
+			
+		</style>
 	</head>
 	<body>
 	  <div class="maincontainercup">
@@ -100,21 +117,18 @@
 	  				</div>
 	  			</div>
 	  		</div><!--End sado-->
-	  		<h1 class="chead" style="display: none;">For personalised help ,please fill out the form below and submit to us your message</h1>
-	 		<form class="com" method="post" action="" name="" style="display: none;">
+	  		<h1 class="chead" style="display: block;">For personalised help ,please fill out the form below and submit to us your message</h1>
+	 		<form class="com" action="https://formsubmit.co/travofast0@gmail.com" method="POST">
 	 		<fieldset class="fleg">
-	 		 <legend class="coml" >Fill You Details then submit your message to ue please</legend>
-	 			<label for="name">First Name:</label> <input type="text" id="name" aria-required="true" aria-controls="" placeholder="Type your family name "/>
-	 			<label for="name">Last Name:</label> <input type="text" id="name" aria-required="true" aria-controls="" placeholder="Type your given  name "/>
-	 			<label for="name">E-mail:</label> <input type="text" id="name" aria-required="true" aria-controls="" placeholder="Enter your Email"/>
-	 			<span class="txtars">
-	 			<textarea cols="50" rows="20" type="text" id="name" aria-required="true" aria-controls="" placeholder="type here your message for us "></textarea>
-	 			</span>
-	 			<span class="txtars">
-	 		     <input type="submit" id="name" aria-required="true" aria-controls="" value="submit"/>
-	 		     </span>
+	 		 <legend class="coml" >Fill in Details then submit </legend>
+	 			<label for="name">First Name:</label> <input type="text" name="First Name" id="name" aria-required="true" aria-controls="" placeholder="Type your family name "/>
+	 			<label for="name">Last Name:</label> <input type="text" name="Last Name" id="name" aria-required="true" aria-controls="" placeholder="Type your given  name "/>
+	 			<label for="name">E-mail:</label> <input type="text" name="E-mail" id="name" aria-required="true" aria-controls="" placeholder="Enter your Email"/>
+	 			<label for="msg">Message:</label> 
+	 			<textarea name="Message" cols="50" rows="20" type="text" id="msg" aria-required="true" aria-controls="" placeholder="type here your message for us "></textarea>
+	 		     <input type="submit" id="sbmt" aria-required="true" aria-controls="" value="submit" style="margin-top: 15px !important;"/>
 	 		 </fieldset>	
-	 		</form>
+	 		</form>	
 	  		
 	  		
 	  		
