@@ -56,10 +56,11 @@
 				background-color: red;
 				width: auto !important;
 			}
-			  input[type=text], input[type=email], input[type=tel], input[type=password] {
-			      height: 25px !important;
+			  input[type=text], input[type=email], input[type=tel], input[type=password] input[type=submit] {
+			      height: 30px !important;
 			      margin-top: 3px !important;
 			      font-size: medium !important;
+                              border: 1px solid gray;
 			  }
 			  
 			  
@@ -117,7 +118,7 @@
 					<fieldset class="firstfs">
 						<legend class="newuser"></legend>
 						<form class="newfm" method="post" id="fmone" action="/userspath">
-							<p class="helpn" style="float: none; clear: both; font-size: 19px; font-weight: lighter;">fill in your details press enter to proceed enjoy our services if you are new , first time user or want to tour us</p>
+							<p class="helpn" style="float: none; clear: both; font-size: 19px; font-weight: normal;">fill in your details press enter to proceed enjoy our services if you are new , first time user or want to tour us</p>
 							<label for="nemail">E-mail Adress: </label><input type="email" class="email" id="nemail" name="newUserEmail" required/><br/><br/>
 							<label for="nphone">Phone Number: </label><input type="tel" class="phone" id="nphone" name="newUserPhoneNumber" required/><br/><br/>
 							<input type="submit" class="submit" id="nsubmit" value="Signin." name="Signin"/>
