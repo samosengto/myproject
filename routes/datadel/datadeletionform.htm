@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1">
+		<title>data deletion request form</title>
+		<link rel="stylesheet" href="css/style.css"/>
+	</head>
+	<body>
+		<div class="maincon">
+		<h1>
+			Hello, would like to request your data deletion?
+		</h1>
+		<p>   
+		  Fill in your  details in the form below to unsubscribe  now!
+		
+		</p>
+			<fieldset>
+				<form method="post" action="">
+					<ul>
+						<li>
+						    <label for="name">Your Full Names:</label>
+							<input type="text" id="name" required/>
+						</li>
+						<li>
+						    <label for="email">Your E-mail Adress:</label>
+							<input type="email" id="email" required onchange="sendNow()"/>
+						</li>
+						<li>
+						    <label for="phone">Your Phone Number:</label>
+							<input type="tel" id="phone" required/>
+						</li>
+						<li>
+						<script>
+							function sendNow() {
+								var message = "Above data requested for permanent deletion from the server";
+								document.querySelector(".myMessage").value = message;								
+							}
+							
+						</script>						
+							<textarea class="myMessage" cols="53" rows="10"></textarea>
+						</li>
+						<li>
+							<input type="submit" value="submit">
+						</li>
+					</ul>					
+				</form>
+			</fieldset>			
+		</div>	
+	</body>
+</html>
