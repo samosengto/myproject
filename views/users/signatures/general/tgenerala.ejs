@@ -33,6 +33,7 @@
           	margin-left: ;
           }
 			input[type=submit] {
+                                height: 30px;
 				margin-left: 295px;
 				display: block;
 			}
@@ -41,13 +42,23 @@
 				display: block;
 				color: #ffaa00;
 			}
-			
+
+
 			 a.submit {
+                                
 				margin-left: 200px;
 				display: block;
 				color: #ffaa00;
 			}
-			
+			#nsubmit, #lgnbtn {
+			       height: 30px;
+			       
+			   } 
+                           input[type=text], input[type=email], input[type=tel], input[type=password] {
+			      height: 30px !important;
+			      
+			  }                             
+
 			   	@media screen and (max-width: 899px) {
 			    
 			    	.maincontainerfmi {
@@ -56,16 +67,21 @@
 				background-color: red;
 				width: auto !important;
 			}
-			  input[type=text], input[type=email], input[type=tel], input[type=password] {
-			      height: 25px !important;
+			  input[type=text], input[type=email], input[type=tel], input[type=password], input[type=submit] {
+			      height: 30px !important;
 			      margin-top: 3px !important;
 			      font-size: medium !important;
+                              border: 1px solid gray;
 			  }
 			  
-			  
+			    #fmtwo button {
+                                
+                                display: none !important;
+
+                        }
 			   #nsubmit, #lgnbtn {
-			       margin-left: 344px !important;
-			       
+			       margin-left: 162px !important;
+			       height: 30px !important;
 			       
 			   } 
 			   #lgnbtn {
@@ -84,12 +100,16 @@
 				background-color: red;
 				width: auto !important;
 			}
-			  
+			      #fmtwo button {
+                                
+                                display: none !important;
+
+                        }
 			  
 			  
 			   #nsubmit, #lgnbtn {
-			       margin-left: 167px !important;
-			       
+			       margin-left: 160px !important;
+			       height: 30px !important;
 			       
 			   } 
 			}
@@ -117,13 +137,13 @@
 					<fieldset class="firstfs">
 						<legend class="newuser"></legend>
 						<form class="newfm" method="post" id="fmone" action="/userspath">
-							<p class="helpn" style="float: none; clear: both; font-size: 19px; font-weight: lighter;">fill in your details press enter to proceed enjoy our services if you are new , first time user or want to tour us</p>
+							<p class="helpn" style="float: none; clear: both; font-size: 19px; font-weight: normal; color: #000022;">Fill in your details press enter to proceed enjoy our services if you are new , first time user or want to tour us</p>
 							<label for="nemail">E-mail Adress: </label><input type="email" class="email" id="nemail" name="newUserEmail" required/><br/><br/>
 							<label for="nphone">Phone Number: </label><input type="tel" class="phone" id="nphone" name="newUserPhoneNumber" required/><br/><br/>
 							<input type="submit" class="submit" id="nsubmit" value="Signin." name="Signin"/>
 							<br/><br/>
 							<hr/>
-							<button onclick="shutngo()" style="margin-left: 180px; background-color: rgba(255,255,255,0.5); border-left: 0; border-top: 0; border-right: 0;">Linkto</button>
+							<button onclick="shutngo()" style="margin-left: 177px; text-decoration: underline; background-color: rgba(255,255,255,0.25); border-left: 0; border-top: 0; border-right: 0;">Linkto</button>
 						</form>
 
 
@@ -132,7 +152,7 @@
 							<p class="helpn" style="float: none; clear: both; font-size: 19px; font-weight: bolder;">To proceed, Signin</p>
 							<label for="nemail">Company Name: </label><input type="text" class="email" id="nemail" name="desiredCompany" required/><br/><br/>
 							<label for="nphone">Pass Code: </label><input type="text" class="phone" id="nphone" name="companyCode" required/><br/><br/>
-							<input type="submit" class="submit" id="nsubmit" value="Signin." name="Signedin" style="margin-left: 292px;"/>
+							<input type="submit" class="submit" id="nsubmit" value="Signin." name="Signedin" style="margin-left: 289px;"/>
 							<br/><br/>
 						</form>
 
